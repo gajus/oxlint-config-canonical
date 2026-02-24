@@ -362,7 +362,7 @@ export const config = defineConfig({
         'unicorn/no-useless-switch-case': 'off',
         'unicorn/no-useless-undefined': 'off',
         'unicorn/no-zero-fractions': 'error',
-        'unicorn/number-literal-case': 'error',
+        'unicorn/number-literal-case': 'off',
         'unicorn/numeric-separators-style': [
           'error',
           {
