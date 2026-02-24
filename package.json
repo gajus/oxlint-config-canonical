@@ -9,7 +9,9 @@
       "gajus",
       "kuizinas",
       "oxlint",
-      "releaserc"
+      "releaserc",
+      "nonoctal",
+      "textnodes"
     ]
   },
   "description": "Canonical Oxlint configuration.",
