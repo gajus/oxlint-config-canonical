@@ -319,7 +319,6 @@ export const config = defineConfig({
         'unicorn/explicit-length-check': 'off',
         'unicorn/filename-case': 'off',
         'unicorn/new-for-builtins': 'error',
-        'unicorn/no-abusive-oxlint-disable': 'error',
         'unicorn/no-array-callback-reference': 'off',
         'unicorn/no-array-for-each': 'error',
         'unicorn/no-array-method-this-argument': 'error',
