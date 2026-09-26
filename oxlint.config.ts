@@ -1,7 +1,7 @@
-import { defineConfig } from 'oxlint';
+import { defineConfig, type OxlintConfig } from 'oxlint';
 import { config } from './src/config.ts';
 
-export default defineConfig({
+const oxlintConfig: OxlintConfig = defineConfig({
   extends: [
     config,
   ],
@@ -11,3 +11,5 @@ export default defineConfig({
     '**/dist/**',
   ],
 });
+
+export default oxlintConfig;

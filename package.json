@@ -48,6 +48,9 @@
   "license": "BSD-3-Clause",
   "main": "./dist/config.js",
   "name": "oxlint-config-canonical",
+  "peerDependencies": {
+    "oxlint": "^1.45.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gajus/oxlint-config-canonical"
@@ -57,7 +60,8 @@
     "dev": "tsdown --watch",
     "lint": "npm run lint:oxlint && npm run lint:cspell",
     "lint:cspell": "cspell './**/*.{ts,tsx}' --no-progress --gitignore",
-    "lint:oxlint": "oxlint ."
+    "lint:oxlint": "oxlint .",
+    "test": "npm run build && tsc --noEmit"
   },
   "type": "module",
   "types": "./dist/config.d.ts",

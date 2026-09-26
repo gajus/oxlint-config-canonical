@@ -4,6 +4,8 @@
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
+    "exactOptionalPropertyTypes": true,
+    "isolatedDeclarations": true,
     "lib": [
       "es2023"
     ],
@@ -21,6 +23,7 @@
   },
   "include": [
     "src",
+    "test",
     "oxlint.config.ts"
   ]
 }
